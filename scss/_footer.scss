@@ -1,0 +1,32 @@
+#footer {
+  background: $foot;
+  height: 46vh;
+
+  .container-4 {
+    width: 400px;
+    margin-inline: auto;
+    // top/bottom and left/right
+    padding: 2rem 8rem;
+
+    h3 {
+      font-size: 2rem;
+      color: #287060;
+    }
+
+    .list ul {
+      display: flex;
+      gap: 3.5rem;
+      margin-left: -3rem;
+
+      a {
+        color: #4f9585;
+        font-size: large;
+      }
+    }
+
+    .socials ul {
+      display: flex;
+      gap: 2rem;
+    }
+  }
+}

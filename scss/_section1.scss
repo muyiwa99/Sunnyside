@@ -1,0 +1,68 @@
+.card-bg {
+  background: $white;
+}
+#secm1 {
+  display: none;
+}
+
+#section-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 750px);
+
+  .card {
+    height: 78vh;
+    width: 760px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  // class .t to position the content in the 2 white boxes
+  .t {
+    padding: 8rem 2rem 0 14rem;
+
+    h2 {
+      font-size: 4rem;
+      width: 80%;
+    }
+
+    p {
+      width: 70%;
+      margin-block-end: 2rem;
+    }
+
+    a {
+      color: #353e45;
+      font-size: 1.3rem;
+    }
+  }
+
+  // Adding and positioning text on the Cherry and orange images.
+  .roles {
+    position: relative;
+    text-align: center;
+    .content {
+      position: absolute;
+      bottom: 5rem;
+      left: 4rem;
+      h3 {
+        color: #1d5749;
+        font-size: 2rem;
+        font-weight: bolder;
+      }
+
+      p {
+        width: 50%;
+        margin-inline: auto;
+        color: #458175;
+      }
+    }
+  }
+}
+
+.h3 {
+  color: #1f526a !important;
+}
+.p {
+  color: #215469 !important;
+}

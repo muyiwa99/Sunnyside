@@ -1,0 +1,48 @@
+@import "config";
+@import "header";
+@import "section1";
+@import "section2";
+@import "section3";
+@import "footer";
+@import "media";
+
+@import url("https://fonts.googleapis.com/css2?family=Ramaraja&display=swap");
+
+body {
+  background: $hover-2;
+  font-family: "Ramaraja", serif;
+}
+
+// Utility
+
+// margins
+.mg-t {
+  margin-block-start: 3rem;
+}
+
+.mg-b {
+  margin-block-end: 2rem;
+}
+
+.mg-b2 {
+  margin-block-end: 5rem;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: $white;
+}
+
+.hamburger {
+  display: none;
+}
+
+.mobile {
+  display: none;
+}
+
+.lnks {
+  display: none;
+}

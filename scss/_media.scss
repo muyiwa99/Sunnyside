@@ -1,0 +1,130 @@
+// Mobile
+
+@media (max-width: 630px) {
+  #jumbotron {
+    background: url(/images/mobile/image-header.jpg) no-repeat center cover;
+    #header {
+      .links {
+        display: none !important;
+      }
+      .hamburger {
+        display: block;
+        padding: 3rem 1rem;
+        img {
+          cursor: pointer;
+        }
+      }
+
+      .lnks {
+        visibility: hidden;
+        position: fixed;
+        top: 0;
+        left: 250px;
+        height: 100%;
+        transition: 0.3s;
+      }
+
+      .h1 {
+        width: 70%;
+        text-align: center;
+        margin-block-start: 0.5rem;
+        font-size: medium;
+      }
+    }
+  }
+
+  #section-1 {
+    // display: flex;
+    // flex-direction: column;
+    display: none;
+    // .card {
+    //   width: 100%;
+    // }
+  }
+
+  #secm1 {
+    display: flex;
+    flex-direction: column;
+    .card {
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .mg {
+      background: $white;
+      height: 22rem;
+      .content {
+        width: 25rem;
+        margin: 3rem auto;
+        h2 {
+          color: #1d5749;
+          font-size: 2.4rem;
+          margin-block-end: 1rem;
+          line-height: 1;
+          width: 17rem;
+          margin-inline: auto;
+
+          text-align: center;
+        }
+        p {
+          color: $p-txt;
+          text-align: center;
+          margin-block-end: 2rem;
+        }
+        a {
+          color: $black;
+          margin-inline-start: 10rem;
+        }
+      }
+    }
+
+    .roles {
+      position: relative;
+      text-align: center;
+      .content {
+        position: absolute;
+        bottom: 2rem;
+
+        h3 {
+          color: #1d5749;
+        }
+        p {
+          color: #458175;
+        }
+      }
+    }
+  }
+
+  #section-2 {
+    height: 180vh;
+
+    .container {
+      width: auto;
+      .test-c {
+        flex-direction: column;
+        gap: 0;
+        .test {
+          width: 19rem;
+          margin-inline: auto;
+        }
+      }
+    }
+  }
+
+  #section-3 {
+    .container-3 {
+      display: none;
+    }
+
+    .mobile {
+      display: flex;
+      flex-wrap: wrap;
+      img {
+        height: 50%;
+        width: 50%;
+      }
+    }
+  }
+}

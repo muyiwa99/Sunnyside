@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Ramaraja&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+#jumbotron {
+  background: url(../images/desktop/image-header.jpg) center no-repeat;
+  height: 100vh;
+  background-size: cover; }
+  #jumbotron #header {
+    width: 95%;
+    margin: auto; }
+    #jumbotron #header .nav {
+      display: flex;
+      gap: 5rem;
+      justify-content: space-between; }
+      #jumbotron #header .nav .links {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem; }
+        #jumbotron #header .nav .links .contact {
+          padding: 0.7rem 1.7rem;
+          background: #fff;
+          color: #3e4450;
+          border-radius: 24px; }
+          #jumbotron #header .nav .links .contact:hover {
+            opacity: 0.8; }
+    #jumbotron #header .h1 {
+      width: 780px;
+      margin: 7rem auto;
+      color: #fff;
+      font-size: 2.3rem;
+      letter-spacing: 8px; }
+      #jumbotron #header .h1 .arrow {
+        display: flex;
+        justify-content: center;
+        margin-block-start: 2.3rem; }
+
+.card-bg {
+  background: #fff; }
+
+#secm1 {
+  display: none; }
+
+#section-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 750px); }
+  #section-1 .card {
+    height: 78vh;
+    width: 760px; }
+    #section-1 .card img {
+      width: 100%;
+      height: 100%; }
+  #section-1 .t {
+    padding: 8rem 2rem 0 14rem; }
+    #section-1 .t h2 {
+      font-size: 4rem;
+      width: 80%; }
+    #section-1 .t p {
+      width: 70%;
+      margin-block-end: 2rem; }
+    #section-1 .t a {
+      color: #353e45;
+      font-size: 1.3rem; }
+  #section-1 .roles {
+    position: relative;
+    text-align: center; }
+    #section-1 .roles .content {
+      position: absolute;
+      bottom: 5rem;
+      left: 4rem; }
+      #section-1 .roles .content h3 {
+        color: #1d5749;
+        font-size: 2rem;
+        font-weight: bolder; }
+      #section-1 .roles .content p {
+        width: 50%;
+        margin-inline: auto;
+        color: #458175; }
+
+.h3 {
+  color: #1f526a !important; }
+
+.p {
+  color: #215469 !important; }
+
+#section-2 {
+  background: #fff;
+  height: 90vh; }
+  #section-2 .container {
+    width: 1100px;
+    margin: auto; }
+    #section-2 .container .head {
+      text-align: center;
+      position: relative;
+      top: 8rem;
+      color: #8a8894;
+      letter-spacing: 10px; }
+    #section-2 .container .test-c {
+      display: flex;
+      margin-block-start: 13rem;
+      gap: 4rem; }
+      #section-2 .container .test-c .test img {
+        border-radius: 50%;
+        height: 25%;
+        margin: 0 0 3rem 6rem; }
+      #section-2 .container .test-c .test .lor {
+        text-align: center;
+        margin-block-end: 2rem; }
+      #section-2 .container .test-c .test .contact {
+        text-align: center; }
+        #section-2 .container .test-c .test .contact h4 {
+          font-size: 1.4rem; }
+        #section-2 .container .test-c .test .contact p {
+          font-weight: lighter;
+          color: #9da1ab; }
+
+#section-3 .container-3 {
+  display: grid;
+  grid-template-columns: repeat(4, 378px); }
+  #section-3 .container-3 img {
+    height: 100%;
+    width: 100%; }
+
+#footer {
+  background: #90d4c5;
+  height: 46vh; }
+  #footer .container-4 {
+    width: 400px;
+    margin-inline: auto;
+    padding: 2rem 8rem; }
+    #footer .container-4 h3 {
+      font-size: 2rem;
+      color: #287060; }
+    #footer .container-4 .list ul {
+      display: flex;
+      gap: 3.5rem;
+      margin-left: -3rem; }
+      #footer .container-4 .list ul a {
+        color: #4f9585;
+        font-size: large; }
+    #footer .container-4 .socials ul {
+      display: flex;
+      gap: 2rem; }
+
+@media (max-width: 630px) {
+  #jumbotron {
+    background: url(/images/mobile/image-header.jpg) no-repeat center cover; }
+    #jumbotron #header .links {
+      display: none !important; }
+    #jumbotron #header .hamburger {
+      display: block;
+      padding: 3rem 1rem; }
+      #jumbotron #header .hamburger img {
+        cursor: pointer; }
+    #jumbotron #header .lnks {
+      visibility: hidden;
+      position: fixed;
+      top: 0;
+      left: 250px;
+      height: 100%;
+      transition: 0.3s; }
+    #jumbotron #header .h1 {
+      width: 70%;
+      text-align: center;
+      margin-block-start: 0.5rem;
+      font-size: medium; }
+  #section-1 {
+    display: none; }
+  #secm1 {
+    display: flex;
+    flex-direction: column; }
+    #secm1 .card img {
+      width: 100%;
+      height: 100%; }
+    #secm1 .mg {
+      background: #fff;
+      height: 22rem; }
+      #secm1 .mg .content {
+        width: 25rem;
+        margin: 3rem auto; }
+        #secm1 .mg .content h2 {
+          color: #1d5749;
+          font-size: 2.4rem;
+          margin-block-end: 1rem;
+          line-height: 1;
+          width: 17rem;
+          margin-inline: auto;
+          text-align: center; }
+        #secm1 .mg .content p {
+          color: #8a8894;
+          text-align: center;
+          margin-block-end: 2rem; }
+        #secm1 .mg .content a {
+          color: #000;
+          margin-inline-start: 10rem; }
+    #secm1 .roles {
+      position: relative;
+      text-align: center; }
+      #secm1 .roles .content {
+        position: absolute;
+        bottom: 2rem; }
+        #secm1 .roles .content h3 {
+          color: #1d5749; }
+        #secm1 .roles .content p {
+          color: #458175; }
+  #section-2 {
+    height: 180vh; }
+    #section-2 .container {
+      width: auto; }
+      #section-2 .container .test-c {
+        flex-direction: column;
+        gap: 0; }
+        #section-2 .container .test-c .test {
+          width: 19rem;
+          margin-inline: auto; }
+  #section-3 .container-3 {
+    display: none; }
+  #section-3 .mobile {
+    display: flex;
+    flex-wrap: wrap; }
+    #section-3 .mobile img {
+      height: 50%;
+      width: 50%; } }
+
+body {
+  background: #fcd7ce;
+  font-family: "Ramaraja", serif; }
+
+.mg-t {
+  margin-block-start: 3rem; }
+
+.mg-b {
+  margin-block-end: 2rem; }
+
+.mg-b2 {
+  margin-block-end: 5rem; }
+
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #fff; }
+
+.hamburger {
+  display: none; }
+
+.mobile {
+  display: none; }
+
+.lnks {
+  display: none; }

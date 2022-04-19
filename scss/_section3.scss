@@ -1,0 +1,11 @@
+#section-3 {
+  .container-3 {
+    display: grid;
+    grid-template-columns: repeat(4, 378px);
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
